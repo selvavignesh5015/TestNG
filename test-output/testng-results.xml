@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T16:42:34 IST" name="Suite" finished-at="2023-05-17T16:42:35 IST" duration-ms="313">
+    <groups>
+      <group name="Smoke">
+        <method signature="class1.testCase1()[pri:0, instance:project1.class1@13e344d]" name="testCase1" class="project1.class1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-05-17T16:42:34 IST" name="Test" finished-at="2023-05-17T16:42:34 IST" duration-ms="65">
+      <class name="project1.class1">
+        <test-method signature="testCase1()[pri:0, instance:project1.class1@13e344d]" started-at="2023-05-17T16:42:34 IST" name="testCase1" finished-at="2023-05-17T16:42:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- project1.class1 -->
+    </test> <!-- Test -->
+    <test started-at="2023-05-17T16:42:35 IST" name="Test1" finished-at="2023-05-17T16:42:35 IST" duration-ms="60">
+      <class name="project1.Baseclass">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:project1.Baseclass@57a78e3]" started-at="2023-05-17T16:42:34 IST" name="beforeSuite" finished-at="2023-05-17T16:42:34 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:project1.Baseclass@57a78e3]" started-at="2023-05-17T16:42:35 IST" name="beforeTest" finished-at="2023-05-17T16:42:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:project1.Baseclass@57a78e3]" started-at="2023-05-17T16:42:35 IST" name="afterTest" finished-at="2023-05-17T16:42:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:project1.Baseclass@57a78e3]" started-at="2023-05-17T16:42:35 IST" name="afterSuite" finished-at="2023-05-17T16:42:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- project1.Baseclass -->
+      <class name="project1.class2">
+        <test-method signature="A()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="A" finished-at="2023-05-17T16:42:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="D()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="D" finished-at="2023-05-17T16:42:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method signature="E()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="E" finished-at="2023-05-17T16:42:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E -->
+        <test-method signature="F()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="F" finished-at="2023-05-17T16:42:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F -->
+        <test-method signature="B()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="B" finished-at="2023-05-17T16:42:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method signature="C()[pri:0, instance:project1.class2@606e4010]" started-at="2023-05-17T16:42:35 IST" name="C" finished-at="2023-05-17T16:42:35 IST" depends-on-methods="project1.class2.A" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+      </class> <!-- project1.class2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
